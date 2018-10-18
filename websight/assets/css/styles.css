@@ -1,0 +1,250 @@
+ul {
+    list-style-type: none;
+    padding-left: :10px;
+    padding-right: 10px;
+    height:65px;
+    text-align: center;
+    width:100%;
+}
+
+li {
+    display: inline;
+    border: 1px solid black;
+    float:left;
+    position: relative;
+    left:4%;
+    height: 100%;
+    background-color: #FFBDDF;
+    width: 14%;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    height: 100%;
+    width: 14%;
+    position: relative;
+    top: 40%;
+     font-size: 18px;
+    text-align: center;
+    vertical-align: middle;
+}
+li:hover{
+    background-color: #FFB4DE;
+    
+}
+li a:hover{
+    color: white;
+}
+.title{
+    text-align: center;
+   
+}
+.currentpage{
+    font-weight: bold;
+}
+
+.timetable{
+    list-style-type: none;
+    margin:100px;
+    padding: 0;
+   width:30%;
+    position: relative;
+    left:30%;
+    
+}
+.timetable li{
+    
+    margin:40px;
+    display: block;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 75px;
+    padding-right: 75px;
+    text-decoration: none;
+    background-color: #A3D3FF;
+    
+}
+.timetable li a{
+    font-size: 28px;
+position: relative;
+right:10px;
+    top: 15px;
+}
+.timetable li a:hover{
+      background-color: #555;
+    color: white;
+}
+table{
+    margin:5px;
+}
+.scheduleTable{
+    margin: 20px;
+    width:60%;
+    margin-left:20%;
+}
+.scheduleDays{
+    margin: 30px;
+}
+.scheduleDays a{
+    color: black;
+    padding:10px
+        
+    position: relative;
+    right:7px;
+    text-decoration: none;
+}
+table, th, td {
+   border: 1px solid black;
+    
+}
+img { 
+    height:auto;
+    width:auto;
+    margin: 1px;
+    max-width:85%;
+    max-height:75%;
+    padding: 2%;
+}
+.imgContainer{
+    display: inline-block;
+    height: 300px;
+    width:20%;
+    margin:0.5%;
+    border: 1px solid black;
+    vertical-align: middle;
+    
+}
+.wholeContainer{
+    position: relative;
+    left:7%;
+    display: block;
+    vertical-align: middle;
+}
+
+.artist{
+    display: block;
+    text-align:center;
+    width:100%;
+    margin-left:10%;
+}
+.fac{
+    height:auto;
+    width:auto;
+    max-width:300px;
+    max-height:400px;
+    display:inline-block;
+    margin-left:9%;
+}
+.facContainer{
+    display: inline-block;
+    width:30%;
+    
+    margin-left:10%;
+    text-align: left;
+    vertical-align: top;
+}
+.allContainer{
+    margin-top:10%;
+    margin-left:10%;
+}
+
+.containerTwo{
+   display:inline-block;
+   
+    width:30%;
+    
+    margin-left:10%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.containerTwo p{
+    font-weight: bold;
+}
+.container{
+     display:inline-block;
+    margin-top:10%;
+    margin-left:10%;
+}
+.about1{
+     display:inline-block;
+     height:300px;
+    width:400px;
+
+}
+.about2{
+     display:inline-block;
+    width:50%;
+    margin-left:17%;
+}
+.containerInfo{
+    padding-top:10%;
+}
+.ticketInfo{
+        display: inline;
+}
+.ticket{
+    height:75px;
+    width: 90px;
+      display: inline;
+}
+.campInfo{
+       display: inline;
+}
+.camping{
+    height:75px;
+    width: 90px;
+   display: inline;
+}
+.containerPrice{
+    margin-left:25%;
+    margin-top:10%;
+    margin-bottom: 10%;
+    border: 1px solid black;    
+    width:50%;
+}
+.helpme{
+   display: block;
+    text-align: center;
+}
+form{
+    margin:5%;
+}
+.quantity{
+    display: block;
+    position: relative;
+    left:30%;
+}
+.campingInc{
+    display: block;
+    position: relative;
+    left:30%;
+    
+}
+.submitForm{
+    position: relative;
+    left:44%;
+    background-color: #4CAF50;
+    font-size: 16px;
+    padding: 10px 10px; 
+    border-radius: 2px;
+    border: 2px solid black;
+    
+}
+
+form input{
+    margin: 10px;
+}
+.checkoutForm{
+    width:50%;
+    margin-left:25%;
+    text-align: center;
+}
+.submitCheckout{
+    background-color: #4CAF50;
+    font-size: 16px;
+    padding: 10px 10px; 
+    border-radius: 2px;
+    border: 2px solid black;
+}
